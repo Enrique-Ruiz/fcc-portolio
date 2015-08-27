@@ -1,0 +1,218 @@
+body, html {
+    background-color: #180e0c;
+    height: 100%;
+}
+
+.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    color: white !important;
+    background-color: gray !important;
+} 
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    background-color: gray;
+     color: white;
+}
+
+.navbar-text {
+	font-weight: bold !important;
+	padding: 0;
+	margin: 0;
+}
+
+.navbar-brand-text {
+	font-weight: bolder;
+}
+
+#intro { 
+    background-image: url('http://newartcolorz.com/images/lion-wallpaper/kartandtinki1_lion-wallpaper_08.jpg'); 
+    background-size: 100%;
+    background-origin: content-box;
+    background-position: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 800px;  
+    margin: 0 auto;
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 100px 0;
+    vertical-align: middle;
+}
+
+.intro-main-text {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 85px;
+    text-shadow: 2px 2px #333333;
+}
+
+.intro-secondary-text {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 2px 2px #333333;
+}
+
+.intro-buttons {
+    text-align: center;
+}
+
+.intro-btn {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+.intro-btn:hover {
+    transform:scale(1.2,1.2);
+    -webkit-transform:scale(1.2,1.2);
+    -moz-transform:scale(1.2,1.2);
+    background-color: #292929;
+    color: white;
+}
+
+.intro-divider {
+    width: 450px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#about { 
+    background: url('http://www.wallpapersonly.net/wallpapers/the-best-office-keyboard-1920x1080.jpg'); 
+    background-size: cover;
+    background-origin: content-box;
+    background-position: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height:800px;
+    margin: 0 auto;
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 100px 0;
+    color: white;
+}
+
+.about-header-text {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.about-text {
+    font-size: 18px;
+    padding: 20px 30px 20px 30px;
+    background-color: black;
+    opacity: 15%;
+    border-width: 10px;
+    border-color: white;
+}
+
+.about-image {
+    border-radius: 25%;
+    position: relative;
+}
+
+#portfolio { 
+    background: url('http://all4desktop.com/data_images/1920%20x%201080/4182372-miami-city-HD.jpg'); 
+    background-size: cover;
+    background-origin: content-box;
+    background-position: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 800px;  
+    margin: 0 auto;
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 100px 0;
+}
+
+#contact { 
+    background: url('http://img1.ali213.net/picfile/News/2015/02/06/2015020640410540.jpg'); 
+    background-size: cover;
+    background-origin: content-box;
+    background-position: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 800px;  
+    margin: 0 auto;
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 100px 0;
+}
+
+#footer { 
+    height: 50px;  
+    margin: 0 auto;
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 50px 0;
+}
+
+#footer-links {
+    color: white;
+    font-size: medium;
+}
+
+#footer-text {
+    color: white;
+    font-size: small;
+}
+
+.vertical-center {
+ padding-top: 10%;
+}
+
+.pad-icon {
+    padding-right: 5px;
+}
+
+.full-bleed {
+    padding: 0;
+}
+
+.thumbnail-title {
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    font-size: large;
+}
+
+.thumbnail-subtitle {
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: small;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.thumb {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-width: 10px;
+    border-color: white !important;
+    border: solid;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.uni-width {
+    width: 200px;
+}
